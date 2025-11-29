@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Advanced Calculator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+
+  <header>
+    <h1>Advanced Calculator</h1>
+    <button id="themeToggle" class="btn small">🌙 / ☀️</button>
+  </header>
+
+  <main>
+    <form id="calcForm" method="POST" action="compute.php">
+
+      <input id="display" name="expression" type="text" placeholder="0" autocomplete="off">
+
+      <div class="buttons">
+
+        <!-- Main Buttons -->
+        <button type="button" data-key="7">7</button>
+        <button type="button" data-key="8">8</button>
+        <button type="button" data-key="9">9</button>
+        <button type="button" class="op" data-key="/">÷</button>
+
+        <button type="button" data-key="4">4</button>
+        <button type="button" data-key="5">5</button>
+        <button type="button" data-key="6">6</button>
+        <button type="button" class="op" data-key="*">×</button>
+
+        <button type="button" data-key="1">1</button>
+        <button type="button" data-key="2">2</button>
+        <button type="button" data-key="3">3</button>
+        <button type="button" class="op" data-key="-">−</button>
+
+        <button type="button" data-key="0">0</button>
+        <button type="button" data-key=".">.</button>
+        <button type="button" id="equals">=</button>
+        <button type="button" class="op" data-key="+">+</button>
+      </div>
+
+      <!-- Scientific Buttons -->
+      <section id="scientific">
+        <button type="button" data-key="(">(</button>
+        <button type="button" data-key=")">)</button>
+        <button type="button" data-key="^">xʸ</button>
+        <button type="button" data-key="%">%</button>
+
+        <button type="button" data-func="sin">sin</button>
+        <button type="button" data-func="cos">cos</button>
+        <button type="button" data-func="tan">tan</button>
+        <button type="button" data-func="sqrt">√</button>
+
+        <button type="button" data-func="log">log</button>
+        <button type="button" data-func="ln">ln</button>
+        <button type="button" data-func="pi">π</button>
+        <button type="button" data-func="e">e</button>
+      </section>
+
+      <button id="toggleSci" class="btn">Scientific Mode</button>
+    </form>
+
+    <div class="history-panel">
+      <div class="history-header">
+        <h2>History</h2>
+        <button id="clearHistory" class="btn small">Clear</button>
+      </div>
+      <div id="historyList" class="history"></div>
+    </div>
+
+  </main>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
