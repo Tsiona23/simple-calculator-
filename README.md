@@ -78,7 +78,7 @@ Start your Apache server.
 
 Open your browser and navigate to:
 
-http://localhost/Advanced-Calculator/
+http://localhost/simple-Calculator/
 
 💻 Technologies
 
