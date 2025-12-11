@@ -69,7 +69,7 @@ Safe server-side evaluation for clients with JavaScript disabled
 
 Clone the repository or download all files:
 
-git clone 
+git clone https://tsiona23.github.io/simple-calculator-/
 
 
 Place the project folder in your local server root (e.g., htdocs for XAMPP).
