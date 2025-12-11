@@ -69,7 +69,7 @@ Safe server-side evaluation for clients with JavaScript disabled
 
 Clone the repository or download all files:
 
-git clone https://github.com/Tsiona23/Advanced-Calculator.git
+git clone 
 
 
 Place the project folder in your local server root (e.g., htdocs for XAMPP).
@@ -96,6 +96,5 @@ Tsiona23
 GitHub: https://github.com/Tsiona23
 
 📜 License
-
 This project is licensed under the MIT License – see the LICENSE
  file for details.
